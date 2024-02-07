@@ -1,0 +1,65 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(81,26,44);
+}
+.parent{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+h2{
+    color: rgb(245,158,130);
+    padding-bottom: 12px;
+    font-size: 30px;
+}
+h3{
+    color: rgb(172,24,40);
+        padding-bottom: 35px;
+    font-size: 40px;
+
+}
+input{
+    margin-bottom: 20px;
+    padding:7px 14px;
+    border: none;
+    background-color: white;
+    width: 180px;
+    border-radius: 5px;
+
+}
+input:focus {
+    outline: none;
+  }
+button{
+    padding:10px 15px;
+background-color:rgb(172,24,40) ;
+color: rgb(245,158,130);
+border: none;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+transition: scale 0.2s ease;
+}
+button:hover{
+    scale: 1.05;
+}
+svg{
+    height: 20px;
+    padding-right: 8px;
+}
+.in{
+    display: flex;
+        align-items: center;
+}
+.copy{
+    transform: translateX(-30px) translateY(-9px);
+    cursor: pointer;
+   }
+   .copy:hover{
+    background-color: rgba(121, 121, 121, 0.136);
+   }
